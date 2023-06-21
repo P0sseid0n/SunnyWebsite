@@ -1,42 +1,34 @@
-# Nuxt 3 Minimal Starter
+# Sunny WebSite
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Routes
 
-## Setup
+### GET `/`
 
-Make sure to install the dependencies:
+![Home](./desktop.png)
 
-```bash
-# yarn
-yarn install
+### GET `/calculo`
 
-# npm
-npm install
+![Calculo](./desktop-calculo.png)
 
-# pnpm
-pnpm install
-```
+### GET `/api/questions`
 
-## Development Server
+![Questions](./desktop-questions.png)
 
-Start the development server on `http://localhost:3000`
+## Installation ⚙️
 
-```bash
-npm run dev
-```
+1. Clone o repositório para o seu ambiente local.
+2. Navegue até o diretório do projeto.
+3. Execute o comando `npm install` para instalar as dependências.
 
-## Production
+## Usage 🚀
 
-Build the application for production:
+1. Execute o comando `npm run dev` para iniciar o servidor.
+2. Acesse o endereço `http://localhost:3000` no seu navegador.
 
-```bash
-npm run build
-```
+## Contribution 🤝
 
-Locally preview production build:
+Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias para o projeto, sinta-se à vontade para abrir uma solicitação de pull.
 
-```bash
-npm run preview
-```
+## License 📄
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Este projeto está licenciado sob a [MIT License](./LICENSE.md).
